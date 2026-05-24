@@ -24,3 +24,6 @@ class User:
     def __init__(self, login: str, password: str):
         self.login = login
         self.password = password
+
+FIN_USER = User(login="fin@mail.ru", password="1234567")
+FIN_USER_2 = User(login="65912111@mail.ru", password="qwe150800")
